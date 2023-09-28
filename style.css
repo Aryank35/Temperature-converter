@@ -1,0 +1,67 @@
+/* Set container styles */
+.container {
+  max-width: 500px;
+  height: 250px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f5f5f5; /* Light gray background */
+  border: 1px solid #c2c6c4; /* Light gray border */
+  border-radius: 5px;
+  margin-top: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+/* Set body background color */
+body {
+  background-color: #c2c6c4; /* Light gray background */
+}
+
+/* Styling for input container */
+.input-container {
+  margin-bottom: 20px;
+}
+
+/* Styling for number input */
+input[type="number"] {
+  width: 200px;
+  padding: 5px;
+}
+
+/* Styling for the convert button */
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green button background */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px; /* Rounded corners */
+  border: 1px solid #c2c6c4; /* Light gray border */
+}
+
+/* Styling for the result container */
+#resultContainer {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 600px) {
+  /* Adjust container width and margin for smaller screens */
+  .container {
+    max-width: 90%;
+    margin-top: 100px;
+  }
+  
+  /* Set number input width to 100% for smaller screens */
+  input[type="number"] {
+    width: 100%;
+  }
+  
+  /* Set button width to 100% for smaller screens */
+  button {
+    width: 100%;
+  }
+}
